@@ -2,8 +2,6 @@ package com.codewars;
 
 import org.junit.jupiter.api.*;
 
-import com.codewars.Collinearity;
-
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

@@ -29,7 +29,7 @@ class CollinearityTest {
     assertFalse(Collinearity.collinearity(1, 1, 6, 1), "collinearity(1, 1, 6, 1)");
     assertFalse(Collinearity.collinearity(1, 2, 1, -2), "collinearity(1, 2, 1, -2)");
   }
-  s
+  
   @DisplayName("Vectors contain zeros") @Order(4)
   @Test void withZeros() {
     assertTrue(Collinearity.collinearity(4, 0, 11, 0), "collinearity(4, 0, 11, 0)");

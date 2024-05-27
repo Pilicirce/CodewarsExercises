@@ -43,8 +43,13 @@ public class Main {
         //Ejercicio 4: Rock Paper Scissirs!
         //DESCRIPTION: Rock Paper Scissors Let's play! You have to return which player won! In case of a draw return Draw!.
         //Examples(Input1, Input2 --> Output):
-        //"scissors", "paper" --> "Player 1 won!" "scissors", "rock" --> "Player 2 won!" "paper", "paper" --> "Draw!"
-        
+        //"scissors", "paper" --> "Player 1 won!" 
+        //"scissors", "rock" --> "Player 2 won!" 
+        //"paper", "paper" --> "Draw!"
+        System.out.println(RockPaperScissors.rps("rock", "scissors"));  // Player 1 won!
+        System.out.println(RockPaperScissors.rps("scissors", "rock"));  // Player 2 won!
+        System.out.println(RockPaperScissors.rps("paper", "paper"));    // Draw!
+    
 
 
         // Llama a otros métodos de otros ejercicios aquí

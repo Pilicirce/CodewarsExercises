@@ -26,3 +26,14 @@ n = 0  ==> [1]        # [2^0]
 n = 1  ==> [1, 2]     # [2^0, 2^1]
 n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 ________________________________________________________________________
+### Exercise 4: Rock Paper Scissors!
+DESCRIPTION:
+Rock Paper Scissors
+Let's play! You have to return which player won! In case of a draw return Draw!.
+
+Examples(Input1, Input2 --> Output):
+
+"scissors", "paper" --> "Player 1 won!"
+"scissors", "rock" --> "Player 2 won!"
+"paper", "paper" --> "Draw!"
+_______________________________________________________

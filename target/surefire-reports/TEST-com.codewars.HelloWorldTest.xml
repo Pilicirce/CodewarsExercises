@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.codewars.HelloWorldTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.codewars.HelloWorldTest" time="0.051" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\msolisma\AppData\Local\Temp\surefire13563735852952937244\surefirebooter16304437694256657737.jar C:\Users\msolisma\AppData\Local\Temp\surefire13563735852952937244 2024-05-23T08-36-44_647-jvmRun1 surefire9053415883770933257tmp surefire_011814468816713734524tmp"/>
+    <property name="sun.java.command" value="C:\Users\msolisma\AppData\Local\Temp\surefire5308371067139629302\surefirebooter8234502700936302659.jar C:\Users\msolisma\AppData\Local\Temp\surefire5308371067139629302 2024-05-27T14-00-42_509-jvmRun1 surefire12976394335621484887tmp surefire_017161824367881905791tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\msolisma\Desktop\PILI\CURSOS\Codewars\collinearity\target\test-classes;C:\Users\msolisma\Desktop\PILI\CURSOS\Codewars\collinearity\target\classes;C:\Users\msolisma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\msolisma\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\msolisma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\msolisma\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\msolisma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\msolisma\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\msolisma\AppData\Local\Temp\surefire13563735852952937244\surefirebooter16304437694256657737.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\msolisma\AppData\Local\Temp\surefire5308371067139629302\surefirebooter8234502700936302659.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testGetGreeting" classname="com.codewars.HelloWorldTest" time="0"/>
+  <testcase name="testGetGreeting" classname="com.codewars.HelloWorldTest" time="0.036"/>
 </testsuite>

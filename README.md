@@ -23,17 +23,34 @@ Complete the function that takes a non-negative integer n as input, and returns 
 
 Examples
 n = 0  ==> [1]        # [2^0]
+
 n = 1  ==> [1, 2]     # [2^0, 2^1]
+
 n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 ________________________________________________________________________
 ### Exercise 4: Rock Paper Scissors!
 DESCRIPTION:
 Rock Paper Scissors
 Let's play! You have to return which player won! In case of a draw return Draw!.
-
 Examples(Input1, Input2 --> Output):
 
 "scissors", "paper" --> "Player 1 won!"
+
 "scissors", "rock" --> "Player 2 won!"
+
 "paper", "paper" --> "Draw!"
 _______________________________________________________
+### Exercise 5: Multiply the number
+DESCRIPTION:
+Jack really likes his number five: the trick here is that you have to multiply each number by 5 raised to the number of digits of each numbers, so, for example:
+
+  3 -->    15  (  3 * 5¹)
+  
+ 10 -->   250  ( 10 * 5²)
+ 
+200 --> 25000  (200 * 5³)
+
+  0 -->     0  (  0 * 5¹)
+  
+ -3 -->   -15  ( -3 * 5¹)
+ ____________________________________________

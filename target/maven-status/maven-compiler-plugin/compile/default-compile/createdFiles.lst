@@ -1,7 +1,7 @@
-com\codewars\PowersOf2.class
-com\codewars\MultiplyTheNumber.class
-com\codewars\HelloWorld2.class
-com\codewars\HelloWorld.class
-com\codewars\RockPaperScissors.class
+com\codewars\level8kyu\MultiplyTheNumber.class
+com\codewars\level8kyu\PowersOf2.class
+com\codewars\level8kyu\HelloWorld2.class
 com\codewars\Main.class
-com\codewars\Collinearity.class
+com\codewars\level8kyu\Collinearity.class
+com\codewars\level8kyu\HelloWorld.class
+com\codewars\level8kyu\RockPaperScissors.class

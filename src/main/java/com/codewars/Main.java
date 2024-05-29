@@ -2,6 +2,13 @@ package com.codewars;
 
 import java.util.Arrays;
 
+import com.codewars.level8kyu.Collinearity;
+import com.codewars.level8kyu.HelloWorld;
+import com.codewars.level8kyu.HelloWorld2;
+import com.codewars.level8kyu.MultiplyTheNumber;
+import com.codewars.level8kyu.PowersOf2;
+import com.codewars.level8kyu.RockPaperScissors;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -60,6 +67,18 @@ public class Main {
         //200 --> 25000  (200 * 5³)
         //0 -->     0  (  0 * 5¹)
         //-3 -->   -15  ( -3 * 5¹)
+        int result1 = MultiplyTheNumber.multiply(3);
+        int result2 = MultiplyTheNumber.multiply(10);
+        int result3 = MultiplyTheNumber.multiply(200);
+        int result4 = MultiplyTheNumber.multiply(0);
+        int result5 = MultiplyTheNumber.multiply(-3);
+
+        // Imprimir los resultados
+        System.out.println("Resultado para 3: " + result1);
+        System.out.println("Resultado para 10: " + result2);
+        System.out.println("Resultado para 200: " + result3);
+        System.out.println("Resultado para 0: " + result4);
+        System.out.println("Resultado para -3: " + result5);
         
 
 

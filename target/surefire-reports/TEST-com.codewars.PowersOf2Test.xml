@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\msolisma\AppData\Local\Temp\surefire5308371067139629302\surefirebooter8234502700936302659.jar C:\Users\msolisma\AppData\Local\Temp\surefire5308371067139629302 2024-05-27T14-00-42_509-jvmRun1 surefire12976394335621484887tmp surefire_017161824367881905791tmp"/>
+    <property name="sun.java.command" value="C:\Users\msolisma\AppData\Local\Temp\surefire17421000360939137427\surefirebooter6249957535031298412.jar C:\Users\msolisma\AppData\Local\Temp\surefire17421000360939137427 2024-05-28T18-25-48_809-jvmRun1 surefire9664712509991292741tmp surefire_011068404451770353564tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\msolisma\Desktop\PILI\CURSOS\Codewars\collinearity\target\test-classes;C:\Users\msolisma\Desktop\PILI\CURSOS\Codewars\collinearity\target\classes;C:\Users\msolisma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\msolisma\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\msolisma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\msolisma\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\msolisma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\msolisma\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\msolisma\AppData\Local\Temp\surefire5308371067139629302\surefirebooter8234502700936302659.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\msolisma\AppData\Local\Temp\surefire17421000360939137427\surefirebooter6249957535031298412.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testSomething" classname="com.codewars.PowersOf2Test" time="0"/>
+  <testcase name="testSomething" classname="com.codewars.PowersOf2Test" time="0.001"/>
 </testsuite>

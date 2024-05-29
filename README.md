@@ -1,7 +1,23 @@
 # CodewarsExercises
-Exercises to practice from codewars.com
+Exercises to practice from codewars.com (https://www.codewars.com). There are different levels, from 8kyu (the easiest) to 1kyu (the hardpest)
 
 ____________________________________
+
+## 8kyu level exercises: index
+
+Exercise 1:  Classic Hello World.
+
+Exercise 2:  Collinearity
+
+Exercise 3:  Powers of 2
+
+Exercise 4: Rock Paper Scissors!
+
+Exercise 5: Multiply the number
+
+
+___________________________________________
+
 ### Exercise 1:  Classic Hello World:
 DESCRIPTION:
 You are given a method called main, make it print the line Hello World!, (yes, that includes a new line character at the end) and don't return anything

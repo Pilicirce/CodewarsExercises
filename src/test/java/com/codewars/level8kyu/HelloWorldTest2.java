@@ -1,4 +1,4 @@
-package com.codewars;
+package com.codewars.level8kyu;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;

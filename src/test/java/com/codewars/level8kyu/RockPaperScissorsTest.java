@@ -1,7 +1,6 @@
-package com.codewars;
+package com.codewars.level8kyu;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 
 public class RockPaperScissorsTest {

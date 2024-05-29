@@ -1,4 +1,4 @@
-package com.codewars;
+package com.codewars.level8kyu;
 
 public class Collinearity {
     

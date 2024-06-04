@@ -1,5 +1,5 @@
 # CodewarsExercises
-Exercises to practice from codewars.com (https://www.codewars.com). There are different levels, from 8kyu (the easiest) to 1kyu (the hardpest)
+Exercises to practice from codewars.com (https://www.codewars.com). There are different levels, from 8kyu (the easiest) to 1kyu (the hardest)
 
 ____________________________________
 
@@ -14,7 +14,6 @@ Exercise 3:  Powers of 2
 Exercise 4: Rock Paper Scissors!
 
 Exercise 5: Multiply the number
-
 
 ___________________________________________
 
@@ -70,3 +69,25 @@ Jack really likes his number five: the trick here is that you have to multiply e
   
  -3 -->   -15  ( -3 * 5¹)
  ____________________________________________
+ 
+## 7kyu level exercises: index
+
+Exercise 6: Anagram Detection
+
+___________________________________________
+
+### Exercise 6: Anagram Detection
+
+DESCRIPTION:
+An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
+
+Note: anagrams are case insensitive
+
+Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
+
+Examples
+
+"foefet" is an anagram of "toffee"
+
+"Buckethead" is an anagram of "DeathCubeK"
+____________________________________

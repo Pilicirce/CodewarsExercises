@@ -3,6 +3,7 @@ package com.codewars;
 import java.util.Arrays;
 
 import com.codewars.level7kyu.AnagramDetection;
+import com.codewars.level7kyu.BasicSequence;
 import com.codewars.level8kyu.Collinearity;
 import com.codewars.level8kyu.HelloWorld;
 import com.codewars.level8kyu.HelloWorld2;
@@ -115,14 +116,41 @@ public class Main {
         //Examples: 5  -->  [0,  1,  3,  6,  10,  15]
         //-5  -->  [0, -1, -3, -6, -10, -15]
         // 7  -->  [0,  1,  3,  6,  10,  15,  21,  28]
+        int[] resultSec1 = BasicSequence.sumOfN(3);
+        int[] resultSec2 = BasicSequence.sumOfN(-4);
+        int[] resultSec3 = BasicSequence.sumOfN(1);
+        int[] resultSec4 = BasicSequence.sumOfN(0);
 
-
-
-
+         // Imprimir los resultados
+         System.out.println("sumOfN(3): " + arrayToString(resultSec1));
+         System.out.println("sumOfN(-4): " + arrayToString(resultSec2));
+         System.out.println("sumOfN(1): " + arrayToString(resultSec3));
+         System.out.println("sumOfN(0): " + arrayToString(resultSec4));
 
         
 
         // Llama a otros métodos de otros ejercicios aquí
         
     }
+
+
+    
+    /**
+     * Exercise 7: Método auxiliar para convertir arrays en una cadena para imprimir
+     * @param array
+     * @return
+     */
+ private static String arrayToString(int[] array) {
+    StringBuilder sb = new StringBuilder();
+    sb.append("[");
+    for (int i = 0; i < array.length; i++) {
+        sb.append(array[i]);
+        if (i < array.length - 1) {
+            sb.append(", ");
+        }
+    }
+    sb.append("]");
+    return sb.toString();
+}
+
 }

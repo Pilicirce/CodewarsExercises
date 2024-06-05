@@ -87,7 +87,7 @@ public class Main {
         //DESCRIPTION: An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
         //Note: anagrams are case insensitive
         //Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
-        //Examples "foefet" is an anagram of "toffee"
+        //Examples: "foefet" is an anagram of "toffee"
         //"Buckethead" is an anagram of "DeathCubeK"
 
         // Llamada al método isAnagram de la clase AnagramDetection
@@ -103,6 +103,24 @@ public class Main {
         System.out.println("Anagram 'apple' and 'pale': " + resultAnagram4); // false
         
 
+
+        //Ejercicio 7: Basic Sequence Practice
+        //DESCRIPTION:A sequence or a series, in mathematics, is a string of objects, like numbers, that follow a particular
+        // pattern. The individual elements in a sequence are called terms. A simple example is 3, 6, 9, 12, 15, 18, 21, ..., 
+        //where the pattern is: "add 3 to the previous term". In this kata, we will be using a more complicated sequence: 
+        //0, 1, 3, 6, 10, 15, 21, 28, ... This sequence is generated with the pattern: "the nth term is the sum of numbers 
+        //from 0 to n, inclusive".
+        //Your Task: Complete the function that takes an integer n and returns a list/array of length abs(n) + 1 of the 
+        //arithmetic series explained above. Whenn < 0 return the sequence with negative terms.
+        //Examples: 5  -->  [0,  1,  3,  6,  10,  15]
+        //-5  -->  [0, -1, -3, -6, -10, -15]
+        // 7  -->  [0,  1,  3,  6,  10,  15,  21,  28]
+
+
+
+
+
+        
 
         // Llama a otros métodos de otros ejercicios aquí
         

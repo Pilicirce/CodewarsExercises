@@ -2,6 +2,7 @@ package com.codewars;
 
 import java.util.Arrays;
 
+import com.codewars.level7kyu.AnagramDetection;
 import com.codewars.level8kyu.Collinearity;
 import com.codewars.level8kyu.HelloWorld;
 import com.codewars.level8kyu.HelloWorld2;
@@ -88,6 +89,18 @@ public class Main {
         //Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
         //Examples "foefet" is an anagram of "toffee"
         //"Buckethead" is an anagram of "DeathCubeK"
+
+        // Llamada al método isAnagram de la clase AnagramDetection
+        boolean resultAnagram1 = AnagramDetection.isAnagram("foefet", "toffee");
+        boolean resultAnagram2 = AnagramDetection.isAnagram("Buckethead", "DeathCubeK");
+        boolean resultAnagram3 = AnagramDetection.isAnagram("Twoo", "Woot");
+        boolean resultAnagram4 = AnagramDetection.isAnagram("apple", "pale");
+
+        // Imprimir los resultados
+        System.out.println("Anagram 'foefet' and 'toffee': " + resultAnagram1); // true
+        System.out.println("Anagram 'Buckethead' and 'DeathCubeK': " + resultAnagram2); // true
+        System.out.println("Anagram 'Twoo' and 'Woot': " + resultAnagram3); // true
+        System.out.println("Anagram 'apple' and 'pale': " + resultAnagram4); // false
         
 
 

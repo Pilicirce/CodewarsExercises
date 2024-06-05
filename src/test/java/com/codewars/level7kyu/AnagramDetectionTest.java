@@ -8,10 +8,10 @@ public class AnagramDetectionTest {
     public void exampleTests() {
       AnagramDetection k = new AnagramDetection();
       
-      assertEquals(true, k.isAnagram("foefet", "toffee"));
-      assertEquals(true, k.isAnagram("Buckethead", "DeathCubeK"));
-      assertEquals(true, k.isAnagram("Twoo", "Woot"));
-      assertEquals(false, k.isAnagram("apple", "pale"));
+      assertEquals(true, AnagramDetection.isAnagram("foefet", "toffee"));
+      assertEquals(true, AnagramDetection.isAnagram("Buckethead", "DeathCubeK"));
+      assertEquals(true, AnagramDetection.isAnagram("Twoo", "Woot"));
+      assertEquals(false, AnagramDetection.isAnagram("apple", "pale"));
     }
   
 }

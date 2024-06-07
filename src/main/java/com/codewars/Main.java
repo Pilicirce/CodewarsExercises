@@ -7,6 +7,7 @@ import com.codewars.level7kyu.BasicSequence;
 import com.codewars.level8kyu.Collinearity;
 import com.codewars.level8kyu.HelloWorld;
 import com.codewars.level8kyu.HelloWorld2;
+import com.codewars.level8kyu.InvertValues;
 import com.codewars.level8kyu.MultiplyTheNumber;
 import com.codewars.level8kyu.PowersOf2;
 import com.codewars.level8kyu.RockPaperScissors;
@@ -89,6 +90,24 @@ public class Main {
         //[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
         //[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
         //[] --> []
+
+        // Pruebas manuales para verificar el método invert
+        int[] exampleInvert1 = {1, 2, 3, 4, 5};
+        int[] resultInvert1 = InvertValues.invert(exampleInvert1);
+        System.out.println("Input: " + Arrays.toString(exampleInvert1) + " -> Output: " + Arrays.toString(resultInvert1));
+
+        int[] exampleInvert2 = {1, -2, 3, -4, 5};
+        int[] resultInvert2 = InvertValues.invert(exampleInvert2);
+        System.out.println("Input: " + Arrays.toString(exampleInvert2) + " -> Output: " + Arrays.toString(resultInvert2));
+
+        int[] exampleInvert3 = {};
+        int[] resultInvert3 = InvertValues.invert(exampleInvert3);
+        System.out.println("Input: " + Arrays.toString(exampleInvert3) + " -> Output: " + Arrays.toString(resultInvert3));
+
+        int[] exampleInvert4 = {0};
+        int[] resultInvert4 = InvertValues.invert(exampleInvert4);
+        System.out.println("Input: " + Arrays.toString(exampleInvert4) + " -> Output: " + Arrays.toString(resultInvert4));
+    
 
 
 

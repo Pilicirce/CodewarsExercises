@@ -83,8 +83,16 @@ public class Main {
         System.out.println("Resultado para -3: " + result5);
 
 
+        //Ejercicio 6: Invert values
+        //Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the 
+        //negatives become positives.
+        //[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
+        //[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
+        //[] --> []
 
-        //Ejercicio 6: Anagram Detection
+
+
+        //Ejercicio 7: Anagram Detection
         //DESCRIPTION: An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
         //Note: anagrams are case insensitive
         //Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
@@ -105,7 +113,7 @@ public class Main {
         
 
 
-        //Ejercicio 7: Basic Sequence Practice
+        //Ejercicio 8: Basic Sequence Practice
         //DESCRIPTION:A sequence or a series, in mathematics, is a string of objects, like numbers, that follow a particular
         // pattern. The individual elements in a sequence are called terms. A simple example is 3, 6, 9, 12, 15, 18, 21, ..., 
         //where the pattern is: "add 3 to the previous term". In this kata, we will be using a more complicated sequence: 
@@ -136,7 +144,7 @@ public class Main {
 
     
     /**
-     * Exercise 7: Método auxiliar para convertir arrays en una cadena para imprimir
+     * Exercise 8: Método auxiliar para convertir arrays en una cadena para imprimir
      * @param array
      * @return
      */

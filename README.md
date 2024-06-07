@@ -15,6 +15,8 @@ Exercise 4: Rock Paper Scissors!
 
 Exercise 5: Multiply the number
 
+Exercise 6: Invert values
+
 ___________________________________________
 
 ### Exercise 1:  Classic Hello World:
@@ -69,16 +71,27 @@ Jack really likes his number five: the trick here is that you have to multiply e
   
  -3 -->   -15  ( -3 * 5¹)
  ____________________________________________
+### Exercise 6: Invert values
+
+ Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
+
+[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
+
+[] --> []
+
+ __________________________________________
  
 ## 7kyu level exercises: index
 
-Exercise 6: Anagram Detection
+Exercise 7: Anagram Detection
 
-Exercise 7: Basic Sequence Practice
+Exercise 8: Basic Sequence Practice
 
 ___________________________________________
 
-### Exercise 6: Anagram Detection
+### Exercise 7: Anagram Detection
 
 DESCRIPTION:
 An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
@@ -94,7 +107,7 @@ Examples
 "Buckethead" is an anagram of "DeathCubeK"
 ____________________________________
 
-### Exercise 7: Basic Sequence Practice
+### Exercise 8: Basic Sequence Practice
 
 DESCRIPTION:
 A sequence or a series, in mathematics, is a string of objects, like numbers, that follow a particular pattern. The individual elements in a sequence are called terms. A simple example is 3, 6, 9, 12, 15, 18, 21, ..., where the pattern is: "add 3 to the previous term".

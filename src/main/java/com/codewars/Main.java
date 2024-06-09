@@ -6,7 +6,6 @@ import com.codewars.level7kyu.AnagramDetection;
 import com.codewars.level7kyu.BasicSequence;
 import com.codewars.level8kyu.Collinearity;
 import com.codewars.level8kyu.HelloWorld;
-import com.codewars.level8kyu.HelloWorld2;
 import com.codewars.level8kyu.InvertValues;
 import com.codewars.level8kyu.MultiplyTheNumber;
 import com.codewars.level8kyu.PowersOf2;
@@ -25,7 +24,6 @@ public class Main {
 
         HelloWorld.main(null);
 
-        HelloWorld2.main(null);
         
 
         //Ejercicio 2: Collinearity
@@ -124,7 +122,7 @@ public class Main {
         System.out.println("Costo para 5 días: " + TrasnportationVacation.rentalCarCost(7)); // Espera: 230
         System.out.println("Costo para 6 días: " + TrasnportationVacation.rentalCarCost(10)); // Espera: 350
 
-        
+
 
 
         //Ejercicio 8: Anagram Detection

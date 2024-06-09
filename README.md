@@ -17,6 +17,8 @@ Exercise 5: Multiply the number
 
 Exercise 6: Invert values
 
+Exercise 7: Transportation on vacation
+
 ___________________________________________
 
 ### Exercise 1:  Classic Hello World:
@@ -82,16 +84,25 @@ Jack really likes his number five: the trick here is that you have to multiply e
 [] --> []
 
  __________________________________________
- 
+### Exercise 7: Transportation on Vacation
+
+After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
+
+You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
+
+Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+
+Write a code that gives out the total amount for different days(d).
+ ______________________________________
 ## 7kyu level exercises: index
 
-Exercise 7: Anagram Detection
+Exercise 8: Anagram Detection
 
-Exercise 8: Basic Sequence Practice
+Exercise 9: Basic Sequence Practice
 
 ___________________________________________
 
-### Exercise 7: Anagram Detection
+### Exercise 8: Anagram Detection
 
 DESCRIPTION:
 An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
@@ -107,7 +118,7 @@ Examples
 "Buckethead" is an anagram of "DeathCubeK"
 ____________________________________
 
-### Exercise 8: Basic Sequence Practice
+### Exercise 9: Basic Sequence Practice
 
 DESCRIPTION:
 A sequence or a series, in mathematics, is a string of objects, like numbers, that follow a particular pattern. The individual elements in a sequence are called terms. A simple example is 3, 6, 9, 12, 15, 18, 21, ..., where the pattern is: "add 3 to the previous term".

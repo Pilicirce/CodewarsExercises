@@ -11,6 +11,7 @@ import com.codewars.level8kyu.InvertValues;
 import com.codewars.level8kyu.MultiplyTheNumber;
 import com.codewars.level8kyu.PowersOf2;
 import com.codewars.level8kyu.RockPaperScissors;
+import com.codewars.level8kyu.TrasnportationVacation;
 
 public class Main {
 
@@ -110,8 +111,23 @@ public class Main {
     
 
 
+        //Ejercicio 7: Transportation on vacation
+       //After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight
+       // for you and your girlfriend and try to leave all the mess behind you. You will need a rental car
+       // in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
+       //Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. 
+       //Alternatively, if you rent the car for 3 or more days, you get $20 off your total. Write a code that gives 
+       //out the total amount for different days(d).
+        System.out.println("Costo para 2 días: " + TrasnportationVacation.rentalCarCost(2)); // Espera: 80
+        System.out.println("Costo para 3 días: " + TrasnportationVacation.rentalCarCost(3)); // Espera: 100
+        System.out.println("Costo para 4 días: " + TrasnportationVacation.rentalCarCost(4)); // Espera: 140
+        System.out.println("Costo para 5 días: " + TrasnportationVacation.rentalCarCost(7)); // Espera: 230
+        System.out.println("Costo para 6 días: " + TrasnportationVacation.rentalCarCost(10)); // Espera: 350
 
-        //Ejercicio 7: Anagram Detection
+        
+
+
+        //Ejercicio 8: Anagram Detection
         //DESCRIPTION: An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
         //Note: anagrams are case insensitive
         //Complete the function to return true if the two arguments given are anagrams of each other; return false otherwise.
@@ -132,7 +148,7 @@ public class Main {
         
 
 
-        //Ejercicio 8: Basic Sequence Practice
+        //Ejercicio 9: Basic Sequence Practice
         //DESCRIPTION:A sequence or a series, in mathematics, is a string of objects, like numbers, that follow a particular
         // pattern. The individual elements in a sequence are called terms. A simple example is 3, 6, 9, 12, 15, 18, 21, ..., 
         //where the pattern is: "add 3 to the previous term". In this kata, we will be using a more complicated sequence: 
@@ -163,7 +179,7 @@ public class Main {
 
     
     /**
-     * Exercise 8: Método auxiliar para convertir arrays en una cadena para imprimir
+     * Exercise 9: Método auxiliar para convertir arrays en una cadena para imprimir
      * @param array
      * @return
      */

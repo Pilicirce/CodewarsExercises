@@ -5,6 +5,7 @@ import java.util.Arrays;
 import com.codewars.level7kyu.AnagramDetection;
 import com.codewars.level7kyu.BasicSequence;
 import com.codewars.level7kyu.GrowthPopulation;
+import com.codewars.level7kyu.SumNoDuplicates;
 import com.codewars.level8kyu.Collinearity;
 import com.codewars.level8kyu.HelloWorld;
 import com.codewars.level8kyu.InvertValues;
@@ -198,7 +199,21 @@ public class Main {
         //For instance, for the list [3, 4, 3, 6] the function should return 10, 
         //and for the list [1, 10, 3, 10, 10] the function should return 4.
         //NOTA ACLARATORIA: solo se suman los números que aparecen una vez
-        
+        // Ejemplos de listas de prueba
+        int[] list1 = {1, 1, 2, 3};
+        int[] list2 = {1, 2, 3};
+        int[] list3 = {1, 1, 2, 2, 3};
+
+        // Llamadas al método sumNoDuplicates
+        int resultList1 = SumNoDuplicates.sumNoDuplicates(list1);
+        int resultList2 = SumNoDuplicates.sumNoDuplicates(list2);
+        int resultList3 = SumNoDuplicates.sumNoDuplicates(list3);
+
+        // Imprimir los resultados
+        System.out.println("Resultado para list1: " + resultList1); // Debería imprimir 5
+        System.out.println("Resultado para list2: " + resultList2); // Debería imprimir 6
+        System.out.println("Resultado para list3: " + resultList3); // Debería imprimir 3
+    
 
 
 

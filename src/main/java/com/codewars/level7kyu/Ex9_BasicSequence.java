@@ -1,6 +1,6 @@
 package com.codewars.level7kyu;
 
-public class BasicSequence {
+public class Ex9_BasicSequence {
     public static int[] sumOfN(int n) {
 
         int length = Math.abs(n) + 1;

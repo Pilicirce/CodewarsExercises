@@ -3,7 +3,7 @@ package com.codewars.level7kyu;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SumNoDuplicates{
+public class Ex11_SumNoDuplicates{
     public static int sumNoDuplicates(int[] arr){
      // Paso 1: Crear un `Map` para almacenar el conteo de cada número
      Map<Integer, Integer> countMap = new HashMap<>();

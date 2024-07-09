@@ -1,11 +1,10 @@
 package com.codewars;
 
 import java.util.Arrays;
-
-import com.codewars.level7kyu.AnagramDetection;
-import com.codewars.level7kyu.BasicSequence;
-import com.codewars.level7kyu.GrowthPopulation;
-import com.codewars.level7kyu.SumNoDuplicates;
+import com.codewars.level7kyu.Ex11_SumNoDuplicates;
+import com.codewars.level7kyu.Ex10_GrowthPopulation;
+import com.codewars.level7kyu.Ex9_BasicSequence;
+import com.codewars.level7kyu.Ex8_AnagramDetection;
 import com.codewars.level8kyu.Ex7_TrasnportationVacation;
 import com.codewars.level8kyu.Ex6_InvertValues;
 import com.codewars.level8kyu.Ex5_MultiplyTheNumber;
@@ -136,10 +135,10 @@ public class Main {
         //"Buckethead" is an anagram of "DeathCubeK"
 
         // Llamada al método isAnagram de la clase AnagramDetection
-        boolean resultAnagram1 = AnagramDetection.isAnagram("foefet", "toffee");
-        boolean resultAnagram2 = AnagramDetection.isAnagram("Buckethead", "DeathCubeK");
-        boolean resultAnagram3 = AnagramDetection.isAnagram("Twoo", "Woot");
-        boolean resultAnagram4 = AnagramDetection.isAnagram("apple", "pale");
+        boolean resultAnagram1 = Ex8_AnagramDetection.isAnagram("foefet", "toffee");
+        boolean resultAnagram2 = Ex8_AnagramDetection.isAnagram("Buckethead", "DeathCubeK");
+        boolean resultAnagram3 = Ex8_AnagramDetection.isAnagram("Twoo", "Woot");
+        boolean resultAnagram4 = Ex8_AnagramDetection.isAnagram("apple", "pale");
 
         // Imprimir los resultados
         System.out.println("Anagram 'foefet' and 'toffee': " + resultAnagram1); // true
@@ -160,10 +159,10 @@ public class Main {
         //Examples: 5  -->  [0,  1,  3,  6,  10,  15]
         //-5  -->  [0, -1, -3, -6, -10, -15]
         // 7  -->  [0,  1,  3,  6,  10,  15,  21,  28]
-        int[] resultSec1 = BasicSequence.sumOfN(3);
-        int[] resultSec2 = BasicSequence.sumOfN(-4);
-        int[] resultSec3 = BasicSequence.sumOfN(1);
-        int[] resultSec4 = BasicSequence.sumOfN(0);
+        int[] resultSec1 = Ex9_BasicSequence.sumOfN(3);
+        int[] resultSec2 = Ex9_BasicSequence.sumOfN(-4);
+        int[] resultSec3 = Ex9_BasicSequence.sumOfN(1);
+        int[] resultSec4 = Ex9_BasicSequence.sumOfN(0);
 
          // Imprimir los resultados
          System.out.println("sumOfN(3): " + arrayToString(resultSec1));
@@ -190,7 +189,7 @@ public class Main {
         //Examples: nb_year(1500, 5, 100, 5000) -> 15
         //nb_year(1500000, 2.5, 10000, 2000000) -> 10
 
-        int years = GrowthPopulation.nbYear(1500, 5, 100, 5000);
+        int years = Ex10_GrowthPopulation.nbYear(1500, 5, 100, 5000);
         System.out.println("Years needed: " + years);
 
 
@@ -206,9 +205,9 @@ public class Main {
         int[] list3 = {1, 1, 2, 2, 3};
 
         // Llamadas al método sumNoDuplicates
-        int resultList1 = SumNoDuplicates.sumNoDuplicates(list1);
-        int resultList2 = SumNoDuplicates.sumNoDuplicates(list2);
-        int resultList3 = SumNoDuplicates.sumNoDuplicates(list3);
+        int resultList1 = Ex11_SumNoDuplicates.sumNoDuplicates(list1);
+        int resultList2 = Ex11_SumNoDuplicates.sumNoDuplicates(list2);
+        int resultList3 = Ex11_SumNoDuplicates.sumNoDuplicates(list3);
 
         // Imprimir los resultados
         System.out.println("Resultado para list1: " + resultList1); // Debería imprimir 5

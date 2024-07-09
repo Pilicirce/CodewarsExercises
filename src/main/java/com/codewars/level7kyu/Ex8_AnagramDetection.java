@@ -2,7 +2,7 @@ package com.codewars.level7kyu;
 
 import java.util.Arrays;
 
-public class AnagramDetection {
+public class Ex8_AnagramDetection {
     public static boolean isAnagram(String test, String original) {
         
         // Convertir ambas cadenas a minúsculas

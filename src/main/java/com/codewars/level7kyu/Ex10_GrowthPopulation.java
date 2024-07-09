@@ -1,6 +1,6 @@
 package com.codewars.level7kyu;
 
-public class GrowthPopulation {
+public class Ex10_GrowthPopulation {
 
     public static int nbYear(int p0, double percent, int aug, int p) {
         int years = 0;

@@ -1,6 +1,6 @@
 package com.codewars.level8kyu;
 
-public class MultiplyTheNumber {
+public class Ex5_MultiplyTheNumber {
     
     public static int multiply(int number) {
        

@@ -1,6 +1,6 @@
 package com.codewars.level8kyu;
 
-public class TrasnportationVacation {
+public class Ex7_TrasnportationVacation {
  
     public static int rentalCarCost(int d) {
       int rentDayCost = 40;

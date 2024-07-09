@@ -1,6 +1,6 @@
 package com.codewars.level8kyu;
 
-public class RockPaperScissors {
+public class Ex4_RockPaperScissors {
 
     public static String rps(String p1, String p2) {
 

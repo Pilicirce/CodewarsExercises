@@ -1,6 +1,6 @@
 package com.codewars.level8kyu;
 
-public class PowersOf2 {
+public class Ex3_PowersOf2 {
 
     public static long[] powersOfTwo(int n) {
 

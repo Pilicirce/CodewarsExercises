@@ -6,13 +6,14 @@ import com.codewars.level7kyu.AnagramDetection;
 import com.codewars.level7kyu.BasicSequence;
 import com.codewars.level7kyu.GrowthPopulation;
 import com.codewars.level7kyu.SumNoDuplicates;
-import com.codewars.level8kyu.Collinearity;
-import com.codewars.level8kyu.HelloWorld;
-import com.codewars.level8kyu.InvertValues;
-import com.codewars.level8kyu.MultiplyTheNumber;
-import com.codewars.level8kyu.PowersOf2;
-import com.codewars.level8kyu.RockPaperScissors;
-import com.codewars.level8kyu.TrasnportationVacation;
+import com.codewars.level8kyu.Ex7_TrasnportationVacation;
+import com.codewars.level8kyu.Ex6_InvertValues;
+import com.codewars.level8kyu.Ex5_MultiplyTheNumber;
+import com.codewars.level8kyu.Ex4_RockPaperScissors;
+import com.codewars.level8kyu.Ex3_PowersOf2;
+import com.codewars.level8kyu.Ex2_Collinearity;
+import com.codewars.level8kyu.Ex1_HelloWorld;
+
 
 public class Main {
 
@@ -24,7 +25,7 @@ public class Main {
         //line character at the end) and don't return anything
         //Note that for some languages, the function main is the entry point of the program.
 
-        HelloWorld.main(null);
+        Ex1_HelloWorld.main(null);
 
         
 
@@ -37,7 +38,7 @@ public class Main {
         //Notes All vectors start from the origin (x=0, y=0). Be careful when handling cases where x1, x2, y1, or y2 are 
         //zero to avoid division by zero errors. A vector with coordinates (0, 0) is collinear to all vectors.
 
-        System.out.println(Collinearity.collinearity(1, 1, 1, 1));  // true
+        System.out.println(Ex2_Collinearity.collinearity(1, 1, 1, 1));  // true
         
 
         //Ejercico 3: Powers of 2
@@ -46,7 +47,7 @@ public class Main {
         //Examples n = 0 ==> [1] # [2^0] n = 1 ==> [1, 2] # [2^0, 2^1] n = 2 ==> [1, 2, 4] # [2^0, 2^1, 2^2]
 
         int n = 2; // cambiar este valor para probar otros casos
-        long[] powers = PowersOf2.powersOfTwo(n);
+        long[] powers = Ex3_PowersOf2.powersOfTwo(n);
         System.out.println(Arrays.toString(powers)); 
 
 
@@ -57,9 +58,9 @@ public class Main {
         //"scissors", "paper" --> "Player 1 won!" 
         //"scissors", "rock" --> "Player 2 won!" 
         //"paper", "paper" --> "Draw!"
-        System.out.println(RockPaperScissors.rps("rock", "scissors"));  // Player 1 won!
-        System.out.println(RockPaperScissors.rps("scissors", "rock"));  // Player 2 won!
-        System.out.println(RockPaperScissors.rps("paper", "paper"));    // Draw!
+        System.out.println(Ex4_RockPaperScissors.rps("rock", "scissors"));  // Player 1 won!
+        System.out.println(Ex4_RockPaperScissors.rps("scissors", "rock"));  // Player 2 won!
+        System.out.println(Ex4_RockPaperScissors.rps("paper", "paper"));    // Draw!
     
 
 
@@ -71,11 +72,11 @@ public class Main {
         //200 --> 25000  (200 * 5³)
         //0 -->     0  (  0 * 5¹)
         //-3 -->   -15  ( -3 * 5¹)
-        int result1 = MultiplyTheNumber.multiply(3);
-        int result2 = MultiplyTheNumber.multiply(10);
-        int result3 = MultiplyTheNumber.multiply(200);
-        int result4 = MultiplyTheNumber.multiply(0);
-        int result5 = MultiplyTheNumber.multiply(-3);
+        int result1 = Ex5_MultiplyTheNumber.multiply(3);
+        int result2 = Ex5_MultiplyTheNumber.multiply(10);
+        int result3 = Ex5_MultiplyTheNumber.multiply(200);
+        int result4 = Ex5_MultiplyTheNumber.multiply(0);
+        int result5 = Ex5_MultiplyTheNumber.multiply(-3);
 
         // Imprimir los resultados
         System.out.println("Resultado para 3: " + result1);
@@ -94,19 +95,19 @@ public class Main {
 
         // Pruebas manuales para verificar el método invert
         int[] exampleInvert1 = {1, 2, 3, 4, 5};
-        int[] resultInvert1 = InvertValues.invert(exampleInvert1);
+        int[] resultInvert1 = Ex6_InvertValues.invert(exampleInvert1);
         System.out.println("Input: " + Arrays.toString(exampleInvert1) + " -> Output: " + Arrays.toString(resultInvert1));
 
         int[] exampleInvert2 = {1, -2, 3, -4, 5};
-        int[] resultInvert2 = InvertValues.invert(exampleInvert2);
+        int[] resultInvert2 = Ex6_InvertValues.invert(exampleInvert2);
         System.out.println("Input: " + Arrays.toString(exampleInvert2) + " -> Output: " + Arrays.toString(resultInvert2));
 
         int[] exampleInvert3 = {};
-        int[] resultInvert3 = InvertValues.invert(exampleInvert3);
+        int[] resultInvert3 = Ex6_InvertValues.invert(exampleInvert3);
         System.out.println("Input: " + Arrays.toString(exampleInvert3) + " -> Output: " + Arrays.toString(resultInvert3));
 
         int[] exampleInvert4 = {0};
-        int[] resultInvert4 = InvertValues.invert(exampleInvert4);
+        int[] resultInvert4 = Ex6_InvertValues.invert(exampleInvert4);
         System.out.println("Input: " + Arrays.toString(exampleInvert4) + " -> Output: " + Arrays.toString(resultInvert4));
     
 
@@ -118,11 +119,11 @@ public class Main {
        //Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. 
        //Alternatively, if you rent the car for 3 or more days, you get $20 off your total. Write a code that gives 
        //out the total amount for different days(d).
-        System.out.println("Costo para 2 días: " + TrasnportationVacation.rentalCarCost(2)); // Espera: 80
-        System.out.println("Costo para 3 días: " + TrasnportationVacation.rentalCarCost(3)); // Espera: 100
-        System.out.println("Costo para 4 días: " + TrasnportationVacation.rentalCarCost(4)); // Espera: 140
-        System.out.println("Costo para 5 días: " + TrasnportationVacation.rentalCarCost(7)); // Espera: 230
-        System.out.println("Costo para 6 días: " + TrasnportationVacation.rentalCarCost(10)); // Espera: 350
+        System.out.println("Costo para 2 días: " + Ex7_TrasnportationVacation.rentalCarCost(2)); // Espera: 80
+        System.out.println("Costo para 3 días: " + Ex7_TrasnportationVacation.rentalCarCost(3)); // Espera: 100
+        System.out.println("Costo para 4 días: " + Ex7_TrasnportationVacation.rentalCarCost(4)); // Espera: 140
+        System.out.println("Costo para 5 días: " + Ex7_TrasnportationVacation.rentalCarCost(7)); // Espera: 230
+        System.out.println("Costo para 6 días: " + Ex7_TrasnportationVacation.rentalCarCost(10)); // Espera: 350
 
 
 

@@ -1,6 +1,6 @@
 package com.codewars.level8kyu;
 
-public class HelloWorld {
+public class Ex1_HelloWorld {
     
     public static void main(String[] args) {
         System.out.println(getGreeting());

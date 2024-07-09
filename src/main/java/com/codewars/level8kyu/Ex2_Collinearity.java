@@ -1,6 +1,6 @@
 package com.codewars.level8kyu;
 
-public class Collinearity {
+public class Ex2_Collinearity {
     
     public static boolean collinearity(int x1, int y1, int x2, int y2) {
 

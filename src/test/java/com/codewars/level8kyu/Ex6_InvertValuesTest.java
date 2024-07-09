@@ -6,9 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("Tests")
-class InvertValuesTest {
+class Ex6_InvertValuesTest {
   private void runTest(int[] expected, int[] input) {
-    assertArrayEquals(expected, InvertValues.invert(input), () -> String.format("Input: %s", Arrays.toString(input)));
+    assertArrayEquals(expected, Ex6_InvertValues.invert(input), () -> String.format("Input: %s", Arrays.toString(input)));
   }
 
   @Test

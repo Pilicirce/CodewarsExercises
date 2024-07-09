@@ -21,6 +21,20 @@ Exercise 7: Transportation on vacation
 
 ___________________________________________
 
+## 7kyu level exercises: index
+
+Exercise 8: Anagram Detection
+
+Exercise 9: Basic Sequence Practice
+
+Exercise 10: Growth of a Population
+
+Exercise 11: Sum a list but ignore any duplicates
+
+Exercise 12: Count the divisors of a number
+ ______________________________________
+
+
 ### Exercise 1:  Classic Hello World:
 DESCRIPTION:
 You are given a method called main, make it print the line Hello World!, (yes, that includes a new line character at the end) and don't return anything
@@ -93,16 +107,6 @@ You will need a rental car in order for you to get around in your vacation. The 
 Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
 
 Write a code that gives out the total amount for different days(d).
- ______________________________________
-## 7kyu level exercises: index
-
-Exercise 8: Anagram Detection
-
-Exercise 9: Basic Sequence Practice
-
-Exercise 10: Growth of a Population
-
-Exercise 11: Sum a list but ignore any duplicates
 
 ___________________________________________
 
@@ -175,9 +179,28 @@ nb_year(1500000, 2.5, 10000, 2000000) -> 10
 
 _______________________________________________
 
+
 ### Exercise 11: Sum a list but ignore any duplicates
 
 DESCRIPTION: Please write a function that sums a list, but ignores any duplicated items in the list.
 For instance, for the list [3, 4, 3, 6] the function should return 10, and for the list [1, 10, 3, 10, 10] the function should return 4.
 
 ______________________________________________________
+
+### Exercise 12: Count the divisors of a number
+
+DESCRIPTION: Count the number of divisors of a positive integer n.
+
+Random tests go up to n = 500000.
+
+Examples (input --> output)
+
+4 --> 3 // we have 3 divisors - 1, 2 and 4
+
+5 --> 2 // we have 2 divisors - 1 and 5
+
+12 --> 6 // we have 6 divisors - 1, 2, 3, 4, 6 and 12
+
+30 --> 8 // we have 8 divisors - 1, 2, 3, 5, 6, 10, 15 and 30
+
+Note you should only return a number, the count of divisors. The numbers between parentheses are shown only for you to see which numbers are counted in each case.

@@ -1,6 +1,7 @@
 package com.codewars;
 
 import java.util.Arrays;
+import com.codewars.level7kyu.Ex12_FindDivisor;
 import com.codewars.level7kyu.Ex11_SumNoDuplicates;
 import com.codewars.level7kyu.Ex10_GrowthPopulation;
 import com.codewars.level7kyu.Ex9_BasicSequence;
@@ -228,6 +229,16 @@ public class Main {
         //Note you should only return a number, the count of divisors. The numbers between parentheses are shown 
         //only for you to see which numbers are counted in each case.
     
+         // Crear una instancia de FindDivisor
+         Ex12_FindDivisor fd = new Ex12_FindDivisor();
+
+         // Probar el método numberOfDivisors con diferentes valores
+         System.out.println("Divisors of 1: " + fd.numberOfDivisors(1)); // Should return 1
+         System.out.println("Divisors of 4: " + fd.numberOfDivisors(4)); // Should return 3
+         System.out.println("Divisors of 5: " + fd.numberOfDivisors(5)); // Should return 2
+         System.out.println("Divisors of 12: " + fd.numberOfDivisors(12)); // Should return 6
+         System.out.println("Divisors of 30: " + fd.numberOfDivisors(30)); // Should return 8
+         System.out.println("Divisors of 100: " + fd.numberOfDivisors(100)); // Should return 9
 
 
 

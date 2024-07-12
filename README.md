@@ -32,6 +32,8 @@ Exercise 10: Growth of a Population
 Exercise 11: Sum a list but ignore any duplicates
 
 Exercise 12: Count the divisors of a number
+
+Exercise 13: Ones and Zeroes
  ______________________________________
 
 
@@ -204,3 +206,32 @@ Examples (input --> output)
 30 --> 8 // we have 8 divisors - 1, 2, 3, 5, 6, 10, 15 and 30
 
 Note you should only return a number, the count of divisors. The numbers between parentheses are shown only for you to see which numbers are counted in each case.
+
+______________________________________________________
+
+### Exercise 13: Ones and Zeroes
+
+DESCRIPTION: Given an array of ones and zeroes, convert the equivalent binary value to an integer.
+
+Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
+
+Examples:
+
+Testing: [0, 0, 0, 1] ==> 1
+
+Testing: [0, 0, 1, 0] ==> 2
+
+Testing: [0, 1, 0, 1] ==> 5
+
+Testing: [1, 0, 0, 1] ==> 9
+
+Testing: [0, 0, 1, 0] ==> 2
+
+Testing: [0, 1, 1, 0] ==> 6
+
+Testing: [1, 1, 1, 1] ==> 15
+
+Testing: [1, 0, 1, 1] ==> 11
+
+However, the arrays can have varying lengths, not just limited to 4.
+

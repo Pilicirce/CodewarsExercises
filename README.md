@@ -34,6 +34,8 @@ Exercise 11: Sum a list but ignore any duplicates
 Exercise 12: Count the divisors of a number
 
 Exercise 13: Ones and Zeroes
+
+Exercise 14: Reverse Letters
  ______________________________________
 
 
@@ -234,4 +236,24 @@ Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11
 
 However, the arrays can have varying lengths, not just limited to 4.
+
+______________________________________________________
+
+### Exercise 14: Reverse Letter
+
+Given a string str, reverse it and omit all non-alphabetic characters.
+
+Example
+
+For str = "krishan", the output should be "nahsirk".
+
+For str = "ultr53o?n", the output should be "nortlu".
+
+Input/Output
+
+[input] string str
+
+A string consists of lowercase latin letters, digits and symbols.
+
+[output] a string
 

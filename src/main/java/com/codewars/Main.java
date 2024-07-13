@@ -244,7 +244,7 @@ public class Main {
          System.out.println("Divisors of 100: " + fd.numberOfDivisors(100)); // Should return 9
 
 
-         
+
 
          //Ejercicio 13: Ones and Zeros
          //DESCRIPTION: Given an array of ones and zeroes, convert the equivalent binary value to an integer.
@@ -273,6 +273,17 @@ public class Main {
         System.out.println("Testing: " + binary3 + " ==> " + Ex13_OnesAndZeros.ConvertBinaryArrayToInt(binary3));
         System.out.println("Testing: " + binary4 + " ==> " + Ex13_OnesAndZeros.ConvertBinaryArrayToInt(binary4));
 
+
+
+
+        //Ejercicio 14: Reverse the letters in a string
+        //Given a string str, reverse it and omit all non-alphabetic characters.
+        //Example: For str = "krishan", the output should be "nahsirk".
+        //For str = "ultr53o?n", the output should be "nortlu".
+        //Input/Output
+        //[input] string str
+        //A string consists of lowercase latin letters, digits and symbols.
+        //[output] a string
 
 
 

@@ -5,7 +5,14 @@ import java.util.List;
 public class Ex13_OnesAndZeros {
     
     public static int ConvertBinaryArrayToInt(List<Integer> binary) {
-        return 0;
-        // Your Code
+        int result = 0;
+        int length = binary.size();
+
+        for (int i = 0; i < length; i++) {
+            int bit = binary.get(i);
+            result += bit * Math.pow(2, length - 1 - i);
+        }
+
+        return result;
     }
 }

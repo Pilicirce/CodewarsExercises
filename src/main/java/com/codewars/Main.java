@@ -1,6 +1,9 @@
 package com.codewars;
 
 import java.util.Arrays;
+import java.util.List;
+
+import com.codewars.level7kyu.Ex13_OnesAndZeros;
 import com.codewars.level7kyu.Ex12_FindDivisor;
 import com.codewars.level7kyu.Ex11_SumNoDuplicates;
 import com.codewars.level7kyu.Ex10_GrowthPopulation;
@@ -241,6 +244,7 @@ public class Main {
          System.out.println("Divisors of 100: " + fd.numberOfDivisors(100)); // Should return 9
 
 
+         
 
          //Ejercicio 13: Ones and Zeros
          //DESCRIPTION: Given an array of ones and zeroes, convert the equivalent binary value to an integer.
@@ -248,12 +252,27 @@ public class Main {
          //Examples: Testing: [0, 0, 0, 1] ==> 1
          //Testing: [0, 0, 1, 0] ==> 2
          //Testing: [0, 1, 0, 1] ==> 5
-         //Testing: [1, 0, 0, 1] ==> 9
+         //Testing: [1, 0, 0, 1] ==> 9jeje
          //Testing: [0, 0, 1, 0] ==> 2
          //Testing: [0, 1, 1, 0] ==> 6
          //Testing: [1, 1, 1, 1] ==> 15
          //Testing: [1, 0, 1, 1] ==> 11
          //However, the arrays can have varying lengths, not just limited to 4.
+
+         //Nota: En el sistema binario, cada posición representa una potencia de 2, comenzando desde 0 en la derecha. Por ejemplo, 
+         //en el número binario 1101, el valor decimal sería: 1×2^3 + 1×2^2 + 0×2^1 + 1×2^0 = 8 + 4 + 0 + 1 = 13.
+
+        List<Integer> binary1 = Arrays.asList(0, 0, 0, 1);
+        List<Integer> binary2 = Arrays.asList(1, 1, 1, 1);
+        List<Integer> binary3 = Arrays.asList(0, 1, 1, 0);
+        List<Integer> binary4 = Arrays.asList(1, 0, 0, 1);
+
+        // Llamada al método ConvertBinaryArrayToInt y mostrar resultados
+        System.out.println("Testing: " + binary1 + " ==> " + Ex13_OnesAndZeros.ConvertBinaryArrayToInt(binary1));
+        System.out.println("Testing: " + binary2 + " ==> " + Ex13_OnesAndZeros.ConvertBinaryArrayToInt(binary2));
+        System.out.println("Testing: " + binary3 + " ==> " + Ex13_OnesAndZeros.ConvertBinaryArrayToInt(binary3));
+        System.out.println("Testing: " + binary4 + " ==> " + Ex13_OnesAndZeros.ConvertBinaryArrayToInt(binary4));
+
 
 
 

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.codewars.level7kyu.Ex13_OnesAndZeros;
+import com.codewars.level7kyu.Ex14_ReverseLetter;
 import com.codewars.level7kyu.Ex12_FindDivisor;
 import com.codewars.level7kyu.Ex11_SumNoDuplicates;
 import com.codewars.level7kyu.Ex10_GrowthPopulation;
@@ -284,6 +285,11 @@ public class Main {
         //[input] string str
         //A string consists of lowercase latin letters, digits and symbols.
         //[output] a string
+
+        System.out.println(Ex14_ReverseLetter.reverseLetter("krishan"));  // Debería imprimir "nahsirk"
+        System.out.println(Ex14_ReverseLetter.reverseLetter("ultr53o?n"));  // Debería imprimir "nortlu"
+        System.out.println(Ex14_ReverseLetter.reverseLetter("ab23c"));  // Debería imprimir "cba"
+        System.out.println(Ex14_ReverseLetter.reverseLetter("krish21an"));  // Debería imprimir "nahsirk"
 
 
 

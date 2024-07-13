@@ -13,13 +13,28 @@ Thumbs.db
 # Ignorar archivos de registro y archivos temporales
 *.log
 *.tmp
+*.bak
+*.old
 
 # Ignorar archivos de respaldo
 *.bak
 *.swp
 
-# Ignorar Compiled class files
+# Ignore Maven and IDE-related files
+*.log
 *.class
+*.swp
+*.swo
+*.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+/.project
+/.classpath
+/.settings/
+/.vscode/
+
 
 # BlueJ files
 *.ctxt
@@ -34,4 +49,4 @@ Thumbs.db
 *.rar
 
 # Maven target directory
-target/
+/target/

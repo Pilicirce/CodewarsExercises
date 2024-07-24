@@ -36,6 +36,8 @@ Exercise 12: Count the divisors of a number
 Exercise 13: Ones and Zeroes
 
 Exercise 14: Reverse Letters
+
+Exercise 15: Check three and two
  ______________________________________
 
 
@@ -256,4 +258,19 @@ Input/Output
 A string consists of lowercase latin letters, digits and symbols.
 
 [output] a string
+
+________________________________________________
+
+### Exercise 15: Check three and two
+
+DESCRIPTION: Given an array with exactly 5 strings "a", "b" or "c" (chars in Java, characters in Fortran), check if the array contains three and two of the same values.
+
+Examples
+
+["a", "a", "a", "b", "b"] ==> true  // 3x "a" and 2x "b"
+
+["a", "b", "c", "b", "c"] ==> false // 1x "a", 2x "b" and 2x "c"
+
+["a", "a", "a", "a", "a"] ==> false // 5x "a"
+____________________________________________________________
 

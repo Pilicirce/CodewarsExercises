@@ -291,6 +291,15 @@ public class Main {
         System.out.println(Ex14_ReverseLetter.reverseLetter("ab23c"));  // Debería imprimir "cba"
         System.out.println(Ex14_ReverseLetter.reverseLetter("krish21an"));  // Debería imprimir "nahsirk"
 
+        
+
+        //Ejercicio 15: Check three and two
+        // DESCRIPTION: Given an array with exactly 5 strings "a", "b" or "c" (chars in Java, characters in Fortran), check if the array contains three and two of the same values.
+        // Examples
+        // ["a", "a", "a", "b", "b"] ==> true  // 3x "a" and 2x "b"
+        // ["a", "b", "c", "b", "c"] ==> false // 1x "a", 2x "b" and 2x "c"
+        // ["a", "a", "a", "a", "a"] ==> false // 5x "a"
+
 
 
 

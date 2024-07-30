@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.codewars.level7kyu.Ex13_OnesAndZeros;
 import com.codewars.level7kyu.Ex14_ReverseLetter;
+import com.codewars.level7kyu.Ex15_Check3and2;
 import com.codewars.level7kyu.Ex12_FindDivisor;
 import com.codewars.level7kyu.Ex11_SumNoDuplicates;
 import com.codewars.level7kyu.Ex10_GrowthPopulation;
@@ -300,8 +301,11 @@ public class Main {
         // ["a", "b", "c", "b", "c"] ==> false // 1x "a", 2x "b" and 2x "c"
         // ["a", "a", "a", "a", "a"] ==> false // 5x "a"
 
-
-
+        Ex15_Check3and2 solution = new Ex15_Check3and2();
+        System.out.println(solution.checkThreeAndTwo(new char[] { 'a', 'a', 'b', 'b', 'b' })); // true
+        System.out.println(solution.checkThreeAndTwo(new char[] { 'a', 'c', 'a', 'c', 'b' })); // false
+        System.out.println(solution.checkThreeAndTwo(new char[] { 'a', 'a', 'a', 'a', 'a' })); // false
+    
 
 
 
